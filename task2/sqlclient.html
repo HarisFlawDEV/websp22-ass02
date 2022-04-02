@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title>SQL CLIENT</title>
+</head>
+
+<body>
+    <form method="post" action="sqlclient.php">
+        <p>Server Name: <input type="text" name="ServerName" /></p>
+        <p>MySQL User: <input type="text" name="User" /></p>
+        <p>MYSQL Pass: <input type="password" name="Pass" /></p>
+        <p>MYSQL Database: <input type="text" name="database" /></p>
+        <h1>(NOTE : leave database blank if creating a database) SQL:</h1>
+        <textarea name="Query" style="height: 200px; width: 1100px;" onclick="this.value=''">
+            Enter Query here...
+        </textarea>
+        <p><input type="submit" value="GO" /></p>
+    </form>
+</body>
+
+</html>
